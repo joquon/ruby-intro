@@ -1,5 +1,7 @@
 class Exercise1
 	
+	GREETING = "Hello"
+	
 	def initialize 
 		@today = Time.now
 	end
@@ -20,6 +22,9 @@ class Exercise1
 	
 	def add_two_numbers(a,b)
 		puts a + b 
-	end	
+	end
 	
+	def get_name(firstName, lastName)
+		puts GREETING + ' ' + firstName + ' ' + lastName
+	end
 end
