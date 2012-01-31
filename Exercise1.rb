@@ -15,7 +15,11 @@ class Exercise1
 		for i in 1..1000
 			@big_array.push(i)
 		end	
-		puts @big_array
+		puts @big_array.join(',')
 	end
+	
+	def add_two_numbers(a,b)
+		puts a + b 
+	end	
 	
 end
