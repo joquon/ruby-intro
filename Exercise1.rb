@@ -27,4 +27,13 @@ class Exercise1
 	def get_name(firstName, lastName)
 		puts GREETING + ' ' + firstName + ' ' + lastName
 	end
+	
+	def find_word(something)
+	  if something =~ /Hi/i
+	    puts "found"
+	  else
+	    puts "not found"
+	  end
+	end
+	  
 end
