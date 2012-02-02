@@ -11,9 +11,8 @@ class Exercise1
 	end
 	
 	def get_big_array
-		# @big_array = []
+		# (1..1000).each { |x| puts x}
 		@big_array = Array.new 
-		# Fill array with the numbers 1-1000
 		for i in 1..1000
 			@big_array.push(i)
 		end	
@@ -24,8 +23,8 @@ class Exercise1
 		puts a + b 
 	end
 	
-	def get_name(firstName, lastName)
-		puts GREETING + ' ' + firstName + ' ' + lastName
+	def get_name(first_name, last_name)
+		puts GREETING + ' ' + first_name + ' ' + last_name
 	end
 	
 	def find_word(something)
